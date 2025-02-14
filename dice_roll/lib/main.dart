@@ -30,6 +30,7 @@ class _DiceRollState extends State<DiceRoll> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         centerTitle: true,
         title: Text("Dice Roll",
@@ -42,8 +43,6 @@ class _DiceRollState extends State<DiceRoll> {
         backgroundColor: Colors.amber,
       ),
       body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
           TextButton(
           onPressed: (){
